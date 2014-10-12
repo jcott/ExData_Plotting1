@@ -23,10 +23,11 @@ dedata$Time=strptime(dedata$Time,"%T")
 with(dedata,plot(DT,Sub_metering_1,type="l",col="gray",xlab=" ",ylab="Energy submetering"))
 with(dedata, points(DT,Sub_metering_2,type="l",xlab=" ",col="blue"))
 with(dedata, points(DT,Sub_metering_3,type="l",xlab=" ",col="red"))
-legend("topright", pch = 1, col = c("gray","blue", "red")
+legend("topright", pch = 1, col = c("gray","blue", "red"),cex=0.7,bty="n",lty=1:2
+       ,inset=c(0.1,0) 
        , legend = c("Sub_metering_1", "Sub_metering_2","Sub_metering_3"))
 
 
 dev.copy(png, file = "plot3.png",width = 480, height = 480) ## Copy my plot to a PNG file
 dev.off() ## Don't forget to close the PNG device!
-
+?dev.copy
