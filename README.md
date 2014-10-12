@@ -1,8 +1,8 @@
 ## Introduction
 
 
-Four plot an plot pgm are constructed as below.
-Download de data an unzip in working directory.
+Four plots and plots pgms are constructed as below.
+Download the datafile and unzip in working directory.
 This is where the 4 plot programs take data from
 they will also put the png plot file in ther.
 
