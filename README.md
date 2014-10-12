@@ -1,5 +1,13 @@
 ## Introduction
 
+
+Four plot an plot pgm are constructed as below.
+Download de data an unzip in working directory.
+This is where the 4 plot programs take data from
+they will also put the png plot file in ther.
+
+
+
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
